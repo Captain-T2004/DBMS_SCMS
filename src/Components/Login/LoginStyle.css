@@ -1,0 +1,52 @@
+.form {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    width: 100vh;
+    border-radius: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    background-color: #ffffff;
+    color: #00aefff5;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 40px;
+    border: 4px solid rgba(29, 29, 29, 0.55);
+    border-radius: 10px;
+    font-size: medium;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #01cbd2;
+    border: 1px solid #003e29;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }

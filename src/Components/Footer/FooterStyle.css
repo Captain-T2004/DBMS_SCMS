@@ -1,0 +1,23 @@
+.footer {
+    position: fixed-bottom;
+    margin: 0px;
+    background-color: #03427eaf;
+    padding: 0px;
+    color:white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+  }
+  
+  
+  @media screen and (max-width: 720px) {
+    .sub {
+      flex-direction: column;
+    }
+  }
+  
