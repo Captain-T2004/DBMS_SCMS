@@ -3,7 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Courses from "./pages/Courses";
 import Result from "./pages/Result";
 import Announcements from "./pages/Announcements";
-import Time_Table from "./pages/Time-Table";
+import TimeTable from "./pages/Time-Table";
 import Clubs from "./pages/Clubs";
 import Header from "./Components/Header/header";
 import LoginPage from "./pages/LoginPage";
@@ -22,7 +22,7 @@ function App() {
         <Route path = "/Courses" element = {<Courses/>}/>
         <Route path = "/Result" element = {<Result/>}/>
         <Route path = "/Announcements" element = {<Announcements/>}/>
-        <Route path = "/Time-Table" element = {<Time_Table/>}/>
+        <Route path = "/Time-Table" element = {<TimeTable/>}/>
         <Route path = "/Clubs" element = {<Clubs/>}/>
       </Routes>
       {location === "/" ?"" : <Footer />}

@@ -1,11 +1,16 @@
 import CourseSelection from "../Components/CourseSelection/CourseSelection";
 import CourseTable from "../Components/CourseTable/CourseTable";
+import Cards from "../Components/Cards/Card";
 function Courses(){
     return (
-        <div style={{display:"flex", flexDirection:"row"}}>
-            <CourseSelection/>
-            <h1>adsadsdsa</h1>
-        </div>
+        <>
+            <div style={{display:"flex", flexDirection:"row"}}>
+                <CourseSelection/>
+                <CourseTable/>
+                
+            </div>
+            <Cards name="Course Materials" department="link to labs folder google Drive" year="link to attandence folder on google Drive"/>
+        </>
     );
 }
 export default Courses;
