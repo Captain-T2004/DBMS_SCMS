@@ -1,9 +1,10 @@
 .footer {
-    position: fixed-bottom;
-    margin: 0px;
+    position: absolute;
     background-color: #03427eaf;
     padding: 0px;
     color:white;
+    width: 85%;
+    bottom: 0;
   }
   
   .footer-content {

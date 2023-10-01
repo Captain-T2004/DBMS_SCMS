@@ -8,16 +8,17 @@ import Clubs from "./pages/Clubs";
 import Header from "./Components/Header/header";
 import LoginPage from "./pages/LoginPage";
 import Footer from "./Components/Footer/footer";
+import "./pages/allPages.css";
 
 function App() {
   let location = useLocation().pathname;
   console.log(location);
   return (
-    <>
+    <div className="page">
       {location === "/" ?"" :<Header />}
       <Routes>
         <Route path = "/" element = {<LoginPage/>}/>
-        <Route path = "/dashboard" element = {<Dashboard/>}/>
+        <Route path = "/dashboard" element = {<Dashboard />} />
         <Route path = "/Courses" element = {<Courses/>}/>
         <Route path = "/Result" element = {<Result/>}/>
         <Route path = "/Announcements" element = {<Announcements/>}/>
@@ -25,7 +26,7 @@ function App() {
         <Route path = "/Clubs" element = {<Clubs/>}/>
       </Routes>
       {location === "/" ?"" : <Footer />}
-   </>
+   </div>
   );
 }
 
