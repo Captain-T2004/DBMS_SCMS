@@ -1,8 +1,8 @@
-
+import RecentAnnouncements from "../Components/RecentAnnouncements/RecentAnnouncements";
 function Announcements(){
     return (
         <>
-            <h1>Announcements</h1>
+            <RecentAnnouncements/>
         </>
     );
 }
