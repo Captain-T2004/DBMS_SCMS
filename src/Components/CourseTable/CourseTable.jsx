@@ -1,20 +1,27 @@
+import "./CourseTableStyle.css";
+import { courses } from "../TempData/TempData"
 function CourseTable(props){
-    const createTable = ()=>{
-        <div className="w3-container">
-            <table className="w3-table-all">
+    return (
+        <div className="Tcontainer">
+            <table className="table-all">
                 <thead>
                     <tr className="tableHeading">
                         <th>Course Name</th>
                         <th>Course ID</th>
                         <th>Total Number of Classes</th>
                         <th>Total Number of Labs</th>
+                        <th>Department</th>
                     </tr>
                 </thead>
+                    <tbody>
+                        {courses.map((item)=>
+                        <tr key={item.department}>
+                            {Object.values(item).map((val)=>(<td>{val}</td>))}
+                        </tr>
+                        )}
+                    </tbody>
             </table>
         </div>
-    };
-    return (
-        {createTable}
     );
 }
 export default CourseTable;

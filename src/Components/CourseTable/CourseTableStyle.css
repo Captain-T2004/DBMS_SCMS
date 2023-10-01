@@ -1,4 +1,15 @@
 .tableHeading{
     color:#fff!important;
-    background-color:#f44336;
+    background-color:#0586c7df;
+}
+.table-all{
+    text-align: center;
+    width: 120vh;
+    height: 45%;
+    font-size: large;
+    border: solid 2px rgba(126, 126, 126, 0.351);
+}
+tr{
+    width: auto;
+    border-bottom: solid 2px rgba(126, 126, 126, 0.351);
 }
