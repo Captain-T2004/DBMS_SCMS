@@ -6,8 +6,9 @@ function Courses(){
         <>
             <div style={{display:"flex", flexDirection:"row"}}>
                 <CourseSelection/>
+            <div className="TableCourse">
                 <CourseTable/>
-                
+            </div>
             </div>
             <Cards name="Course Materials" department="link to labs folder google Drive" year="link to attandence folder on google Drive"/>
         </>

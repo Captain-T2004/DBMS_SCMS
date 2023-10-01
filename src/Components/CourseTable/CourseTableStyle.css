@@ -1,15 +1,32 @@
-.tableHeading{
+.TableCourse .tableHeading{
     color:#fff!important;
     background-color:#0586c7df;
 }
-.table-all{
+.TableCourse .table-all{
     text-align: center;
     width: 120vh;
     height: 45%;
     font-size: large;
     border: solid 2px rgba(126, 126, 126, 0.351);
 }
-tr{
+.TableCourse tr{
     width: auto;
     border-bottom: solid 2px rgba(126, 126, 126, 0.351);
+}
+
+.TableDashboard .table-all{
+    border-collapse: collapse;
+    width: 100%;
+}
+.TableDashboard th, td {
+    padding: 5px;
+}
+.TableDashboard th, td{
+    color:rgba(0, 0, 0, 0.383)
+}
+.TableDashboard tr td:nth-of-type(1),
+                td:nth-of-type(2),
+                td:nth-of-type(5) {
+        color: #000000c4;
+        font-weight: 600;
 }

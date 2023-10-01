@@ -2,7 +2,7 @@ import "./CourseTableStyle.css";
 import { courses } from "../TempData/TempData"
 function CourseTable(props){
     return (
-        <div className="Tcontainer">
+        <>
             <table className="table-all">
                 <thead>
                     <tr className="tableHeading">
@@ -21,7 +21,7 @@ function CourseTable(props){
                         )}
                     </tbody>
             </table>
-        </div>
+        </>
     );
 }
 export default CourseTable;

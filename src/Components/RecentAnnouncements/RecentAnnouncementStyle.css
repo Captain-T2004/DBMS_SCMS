@@ -1,0 +1,22 @@
+.announcement-card {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-content {
+    padding: 20px;
+  }
+  
+  .announcement-title {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .announcement-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
