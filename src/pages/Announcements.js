@@ -1,8 +1,8 @@
-import AnnouncementsUpload from "../Components/Announcements/AnnouncementUpload";
+import RecentAnnouncements from "../Components/RecentAnnouncements/RecentAnnouncements";
 function Announcements(){
     return (
         <>
-            <AnnouncementsUpload/>
+            <RecentAnnouncements/>
         </>
     );
 }
