@@ -1,8 +1,8 @@
-
+import AnnouncementsUpload from "../Components/Announcements/AnnouncementUpload";
 function Announcements(){
     return (
         <>
-            <h1>Announcements</h1>
+            <AnnouncementsUpload/>
         </>
     );
 }

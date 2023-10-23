@@ -1,9 +1,9 @@
-
-function Result(){
-    return (
-        <>
-            <h1>Result</h1>
-        </>
-    );
+import ResultUpload from "../Components/Result/ResultUpload";
+function Result() {
+  return (
+    <>
+      <ResultUpload />
+    </>
+  );
 }
 export default Result;
