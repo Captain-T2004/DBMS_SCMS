@@ -18,7 +18,7 @@ function App() {
     <div className="page">
       {location === "/" ?"" :<Header />}
       <Routes>
-        <Route path = "/" element = {<LoginPage/>}/>
+        <Route path = "/" element = {<LoginPage />}/>
         <Route path = "/dashboard" element = {<Dashboard />} />
         <Route path = "/Courses" element = {<Courses/>}/>
         <Route path = "/Result" element = {<Result/>}/>
