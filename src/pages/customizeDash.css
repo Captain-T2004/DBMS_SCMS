@@ -1,0 +1,5 @@
+DashboardCard{
+    resize: both;
+    overflow: auto;
+    background-color: aqua;
+}

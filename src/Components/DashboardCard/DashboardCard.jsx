@@ -3,7 +3,7 @@ function DashboardCard(props){
     return (
         <div className="card">
         <div className="card-image">
-            <img src="/assets/avatar.svg" alt="Card image"/>
+            <img src="/assets/avatar.svg" alt="Card"/>
         </div>
         <div className="card-content">
             <div className="card-row">
