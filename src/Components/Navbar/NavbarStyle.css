@@ -1,26 +1,78 @@
 /* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 15%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+/* .sidenav {
+  height: 100%;
+  width: 15%; 
+  position: fixed; 
+  z-index: 1;
+  top: 0; /
   left: 0;
-  background-color: #000000; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #000000;
+  overflow-x: hidden; 
   padding-top: 20px;
-}
+} 
+*/
 
 /* The navigation menu links */
-.sidenav a{
+/* .sidenav a{
   padding: 6px 8px 6px 16px;
   text-decoration:underline;
   font-size: 30px;
   color: #cfcfcf;
   display: block;
-}
+} */
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+/* .sidenav a:hover {
   color: #f1f1f1;
+} */
+/* NavbarStyle.css */
+.sidenav {
+  height: 100%;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #10898b;
+  padding-top: 20px;
+  padding-right: 10px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 0.7em;
 }
+
+.sidenav a {
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 90%;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  border-radius: 15px;
+  
+}
+
+.sidenav a:hover {
+  background-color:#0d494a;
+}
+
+.logo img {
+  width: 40px; 
+  height: 40px;/* Adjust the logo size as needed */
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.logo{
+  display: flex;
+
+}
+.logo h2{
+  color: #fff;
+margin-left:10px ;
+font-family: sans-serif;
+}
+
+/* You can add additional styling as per your design preferences */

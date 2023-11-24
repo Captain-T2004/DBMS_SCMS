@@ -12,6 +12,7 @@ body{
   
 }
 
+
 .login-container{
   width: 80%;
   margin: auto;
@@ -23,6 +24,7 @@ body{
   border-bottom: 3px solid grey ;
   border-left: 3px solid grey ;
   padding: 1.8em 1em;
+  margin-left: 1%;
 }
 .form-pre{
   width: 50%;
