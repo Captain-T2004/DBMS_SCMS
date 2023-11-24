@@ -15,9 +15,9 @@ function CourseTable(props){
                 </thead>
                     <tbody>
                         {courses.map((item)=>
-                            <tr key={item.department}>
-                                {Object.values(item).map((val)=>(<td>{val}</td>))}
-                            </tr>
+                        <tr key={item.department}>
+                            {Object.values(item).map((val)=>(<td>{val}</td>))}
+                        </tr>
                         )}
                     </tbody>
             </table>

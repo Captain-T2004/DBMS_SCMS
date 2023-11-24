@@ -10,7 +10,6 @@ function Navbar() {
                     <Link to="/Announcements">Announcements</Link>
                     <Link to="/Time-Table">Time Table</Link>
                     <Link to="/AccountAndSettings">Account/Settings</Link>
-                    <Link to="/customDashboard">Customize Dashboard</Link>
             </div>
         </>
     );

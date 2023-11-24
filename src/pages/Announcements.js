@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-import RecentAnnouncements from "../Components/RecentAnnouncements/RecentAnnouncements";
-import AnnoncementUpload from "../Components/Announcements/AnnouncementUpload";
-=======
 import {AnnouncementsAcademics, AnnouncementsExtra,AnnouncementsClubs} from "../Components/TempData/TempData"
 import { useState } from "react";
 import TextCard from "../Components/TextCard/textCard"
@@ -9,7 +5,6 @@ import "./AnnouncementsCSS.css"
 import { IoSchoolSharp } from "react-icons/io5";
 import { GiClubs } from "react-icons/gi";
 import { FaBookmark } from "react-icons/fa";
->>>>>>> Stashed changes
 function Announcements(){
 
     const [showAcademics, setShowAcademics] = useState(localStorage.getItem('showAcademics'));
@@ -27,14 +22,9 @@ function Announcements(){
     };
     const toggleExtras = () => {
         setShowExtras(!showExtras);
-        localStorage.setItem('showClubs', !showExtras);
+        localStorage.setItem('showExtras', !showExtras);
     };
     return (
-<<<<<<< Updated upstream
-        <>
-            <AnnoncementUpload/>
-            <RecentAnnouncements/>
-=======
         <>  
             <div>
                 <button onClick={toggleAcademics} className="btn"><IoSchoolSharp/></button>
@@ -44,7 +34,6 @@ function Announcements(){
             {showAcademics && <TextCard title='Academics' content={AnnouncementsAcademics} status="show"/>}
             {showClubs && <TextCard title='Clubs' content={AnnouncementsClubs} status="show"/>}
             {showExtras && <TextCard title='Extras' content={AnnouncementsExtra} status="show"/>}
->>>>>>> Stashed changes
         </>
     );
   }

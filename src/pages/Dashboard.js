@@ -1,7 +1,6 @@
 import DashboardCard from "../Components/DashboardCard/DashboardCard";
 import CourseTable from "../Components/CourseTable/CourseTable";
-function Dashboard(props){
-    console.log(props.componenets);
+function Dashboard(){
     return (
         <>
             <h4 id="DashHeadings">ACADEMICS</h4>
@@ -13,11 +12,7 @@ function Dashboard(props){
             </div>
             <br/>
             <h4 id="DashHeadings">COLLEGE NEWS</h4>
-<<<<<<< Updated upstream
-            <RecentAnnouncements />
-=======
             
->>>>>>> Stashed changes
         </>
     );
 }
