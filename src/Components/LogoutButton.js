@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LogoutButton = ({ onLogout }) => {
     return (
         <form onSubmit={onLogout}>
-            <Link to="/redirect-page">Log Out</Link>
+            <Link to="/redirect-page">LogOut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
         </form>
     );
 };
