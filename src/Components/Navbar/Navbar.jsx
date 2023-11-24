@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import "./NavbarStyle.css";
-import LogoutButton from 'C:/Users/visha/OneDrive/Desktop/hi/DBMS_SCMS/src/Components/LogoutButton.js';
+import LogoutButton from '../LogoutButton.js';
 
 function Navbar() {
     const [isLoggedOut, setIsLoggedOut] = useState(false);
