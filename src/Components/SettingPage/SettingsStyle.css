@@ -1,0 +1,100 @@
+/* Styles for individual form fields */
+#firstname,
+#lastname,
+#middlename,
+#contact,
+#address,
+#gender,
+#fathername,
+#email,
+#citizen{
+  width:100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styles for the form container */
+.SettingChangeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+/* Styles for the form itself */
+.SettingChangeForm form {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%; /* Adjusted width */
+  text-align: left;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Styles for select and submit button */
+
+/* Styles for submit button */
+input[type="submit"] {
+  background-color: #007bff;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for file input */
+input[type=file] {
+  width: 100%;
+  max-width: 100%;
+  color: #444;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  margin-bottom: 15px;
+}
+input[type=select] {
+  width: 100%;
+  max-width: 100%;
+  color: #444;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  margin-bottom: 15px;
+}
+
+input[type=sumbit] {
+  width: 100%;
+  max-width: 100%;
+  color: #444;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  margin-bottom: 15px;
+}
+input[type=date] {
+  width: 100%;
+  max-width: 100%;
+  color: #444;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  margin-bottom: 15px;
+}

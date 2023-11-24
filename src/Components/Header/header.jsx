@@ -2,7 +2,7 @@ import Navbar from "../Navbar/Navbar";
 function header() {
   return (
     <header>
-      <Navbar />
+      {/*<Navbar />*/}
     </header>
   );
 }

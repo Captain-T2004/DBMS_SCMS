@@ -1,5 +1,4 @@
 import DashboardCard from "../Components/DashboardCard/DashboardCard";
-import RecentAnnouncements from "../Components/RecentAnnouncements/RecentAnnouncements";
 import CourseTable from "../Components/CourseTable/CourseTable";
 function Dashboard(){
     return (
@@ -13,7 +12,6 @@ function Dashboard(){
             </div>
             <br/>
             <h4 id="DashHeadings">COLLEGE NEWS</h4>
-            <RecentAnnouncements />
             
         </>
     );
