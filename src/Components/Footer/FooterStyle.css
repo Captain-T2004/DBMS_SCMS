@@ -1,26 +1,100 @@
 .footer {
-    position: relative;
+  background-color: #10898b;
+  color: #fff;
+  padding:20px 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
 
-    bottom: 0;
-    background-color: #03427eaf;
-    padding: 0px;
-    color:white;
-    width: 100%;
-    bottom: 0;
-  }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-logo h3 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  margin-bottom: 25px;
+  font-size: 0.9em;
+}
+
+.footer-links {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links div {
+  flex: 1;
+}
+
+.footer-links h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 1.05rem;
+}
+
+#footer-bottom {
+  margin-top: 0px;
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+.logo img {
+  width: 40px; 
+  height: 40px;/* Adjust the logo size as needed */
   
-  .footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    text-align: left;
-    margin: 10px;
-  }
-  
-  
-  @media screen and (max-width: 720px) {
-    .sub {
-      flex-direction: column;
-    }
-  }
-  
+  border-radius: 3px;
+}
+.logo{
+  display: flex;
+
+}
+.logo h2{
+  color: #fff;
+margin-left:10px ;
+font-family: sans-serif;
+}
+#footerlogopara{
+  font-family: cursive;
+  font-size: 1.2;
+}
+#footerpara{
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 80%;
+  font-size: 1.1rem;
+
+}
