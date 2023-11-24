@@ -25,7 +25,7 @@ function App() {
         <Route path = "/Announcements" element = {<Announcements/>}/>
         <Route path = "/Time-Table" element = {<TimeTable/>}/>
         <Route path = "/Clubs" element = {<Clubs/>}/>
-        <Route path = "/AccountSettings" element = {<AccountAndSettings/>}/>
+        <Route path = "/AccountAndSettings" element = {<AccountAndSettings/>}/>
       </Routes>
       {location === "/" ?"" : <Footer />}
    </div>
