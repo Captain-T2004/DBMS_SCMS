@@ -1,5 +1,5 @@
-body{
-    /* margin-left: 15%; */
+.page{
+    margin-left: 15%;
 }
 #DashHeadings{
     font-size: 16px;
@@ -9,3 +9,50 @@ body{
     opacity: 0.75;
     color:rgba(71, 4, 94, 0.753)
 }
+/* RedirectPage.css */
+/* RedirectPage.css */
+.redirect-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.redirect-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 12px;
+  box-shadow: 5px -5px 5px grey;
+  border-bottom: 3px solid grey ;
+  border-left: 3px solid grey ;
+}
+
+.redirect-card img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    border-radius: 8px; /* Add border-radius for a rounded image */
+    margin-bottom: 15px; /* Add margin to separate the image from the text */
+}
+
+.redirect-card h1 {
+    color: #22cbce;
+    font-size: 1.8rem;
+}
+
+.redirect-card p {
+    color: #488283;
+    margin-top: 10px;
+    
+}
+.image{
+    width: 40%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 15px;
+    border-top: 2px solid grey ;
+    border-left: 2px solid grey ;
+    margin-bottom: 0.4em;
+  }

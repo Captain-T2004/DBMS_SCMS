@@ -1,4 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
+
 import Dashboard from "./pages/Dashboard";
 import Courses from "./pages/Courses";
 import Result from "./pages/Result";
@@ -10,10 +11,14 @@ import Header from "./Components/Header/header";
 import LoginPage from "./pages/LoginPage";
 import Footer from "./Components/Footer/footer";
 import "./pages/allPages.css";
+import RedirectPage from './pages/RedirectPage';
+
+// import LogoutButton from './Components/LogoutButton';
 
 function App() {
   let location = useLocation().pathname;
   console.log(location);
+ 
   return (
     <div className="page">
       {location === "/" ?"" :<Header />}
@@ -26,6 +31,7 @@ function App() {
         <Route path = "/Time-Table" element = {<TimeTable/>}/>
         <Route path = "/Clubs" element = {<Clubs/>}/>
         <Route path = "/AccountSettings" element = {<AccountAndSettings/>}/>
+        <Route path="/redirect-page" element={<RedirectPage redirectTo="/" />} />
       </Routes>
       {location === "/" ?"" : <Footer />}
    </div>
