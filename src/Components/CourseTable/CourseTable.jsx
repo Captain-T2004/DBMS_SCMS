@@ -3,6 +3,7 @@ import { courses } from "../TempData/TempData"
 function CourseTable(props){
     return (
         <>
+            <div className="CourseTable_container">
             <table className="table-all">
                 <thead>
                     <tr className="tableHeading">
@@ -21,6 +22,7 @@ function CourseTable(props){
                         )}
                     </tbody>
             </table>
+            </div>
         </>
     );
 }

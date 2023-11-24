@@ -7,23 +7,17 @@ export default function Cards(props)
     const p_year = props.year;
     return (   
     <div id="container">	
-        <div className="product-details">   
-            <h1>{p_name}</h1>
-            <div className='details'>
-                <ul className="list-group list-group-flush">
-                    <li className="list-group-item">{p_name}</li>
-                    <li className="list-group-item">{p_department}</li>
-                    <li className="list-group-item">{p_year} </li>
-                </ul>   
+        <div className="product-details" id="coursepage_card">
+            <div className='left-column'>
+                <h1>{p_name}</h1>
             </div>
-            {/* <div className="control">   
-                <button className="cardbtn">       
-                    <span className="buy">View</span>
-                </button>
-                <button className="cardbtn">
-                    <span className="buy">More..</span>
-                </button>
-            </div>   */}
+            <div className='right-column'>
+                <ul className="list-group list-group-flush">
+                    <li className="list-group-item"><strong>Name:</strong> {p_name}</li>
+                    <li className="list-group-item"><strong>Department:</strong> {p_department}</li>
+                    <li className="list-group-item"><strong>Year:</strong> {p_year}</li>
+                </ul>
+            </div>
         </div>
     </div>
   )
