@@ -1,5 +1,4 @@
 import DashboardCard from "../Components/DashboardCard/DashboardCard";
-import RecentAnnouncements from "../Components/RecentAnnouncements/RecentAnnouncements";
 import CourseTable from "../Components/CourseTable/CourseTable";
 function Dashboard(props){
     console.log(props.componenets);
@@ -14,7 +13,11 @@ function Dashboard(props){
             </div>
             <br/>
             <h4 id="DashHeadings">COLLEGE NEWS</h4>
+<<<<<<< Updated upstream
             <RecentAnnouncements />
+=======
+            
+>>>>>>> Stashed changes
         </>
     );
 }
