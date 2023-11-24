@@ -9,10 +9,7 @@ function Dashboard(){
             <h4 id="DashHeadings">COURSES</h4>
             <div className="TableDashboard">
                 <CourseTable />
-            </div>
-            <br/>
-            <h4 id="DashHeadings">COLLEGE NEWS</h4>
-            
+            </div>   
         </>
     );
 }

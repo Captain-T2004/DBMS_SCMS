@@ -4,7 +4,6 @@ import Dashboard from "./pages/Dashboard";
 import Courses from "./pages/Courses";
 import Result from "./pages/Result";
 import Announcements from "./pages/Announcements";
-import TimeTable from "./pages/Time-Table";
 import AccountAndSettings from "./pages/AccountAndSetting";
 import Header from "./Components/Header/header";
 import LoginPage from "./pages/LoginPage";
@@ -27,7 +26,6 @@ function App() {
         <Route path = "/Courses" element = {<Courses/>}/>
         <Route path = "/Result" element = {<Result/>}/>
         <Route path = "/Announcements" element = {<Announcements/>}/>
-        <Route path = "/Time-Table" element = {<TimeTable/>}/>
         <Route path="/redirect-page" element={<RedirectPage redirectTo="/" />} />
         <Route path = "/AccountAndSettings" element = {<AccountAndSettings/>}/>
       </Routes>

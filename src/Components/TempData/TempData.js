@@ -1,13 +1,33 @@
 export const database = [
     {
-      username: "user1",
-      password: "pass1"
+      username: "student_user1",
+      password: "Stud3ntP@ss1"
     },
     {
-      username: "user2",
-      password: "pass2"
-    }
-  ];
+      username: "student_user2",
+      password: "Stud3ntP@ss2"
+    },
+    {
+      username: "student_user3",
+      password: "Stud3ntP@ss3"
+    },
+    {
+      username: "student_user4",
+      password: "Stud3ntP@ss4"
+    },
+    {
+      username: "student_user5",
+      password: "Stud3ntP@ss5"
+    },
+    {
+      username: "student_user6",
+      password: "Stud3ntP@ss6"
+    },
+    {
+      username: "student_user7",
+      password: "Stud3ntP@ss7"
+    },
+];
 
 export const info=
     [{rollno:"22bsm062",
@@ -48,13 +68,6 @@ export const courses = [
     labs: "8",
     department: "CSE"
   },
-  {
-    name: "Data Structures And Algorithms",
-    id: "CS2001",
-    classes: "24",
-    labs: "8",
-    department: "CSE"
-  },
 ];
 
 export const AnnouncementsAcademics = [
@@ -70,5 +83,5 @@ export const AnnouncementsExtra = [
 export const AnnouncementsClubs = [
   'Calling all coding enthusiasts! Our next hackathon is scheduled for 28/11/2023. Get ready to collaborate, learn, and build some awesome projects',
   'Get active with our sports club! Join us for a friendly game of cricker on 28/11/2023 at cricket ground. All skill levels welcome!',
-  'Prepare your arguments! Debate Club meeting on [date] to discuss [current affairs topic]. All opinions welcome!',
+  'Prepare your arguments! Debate Club meeting on 29/11/2023 to discuss Mess vs Canteen food. All opinions welcome!',
 ]
