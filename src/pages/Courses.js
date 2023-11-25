@@ -10,7 +10,7 @@ function Courses(){
                 <CourseTable/>
             </div>
             </div>
-            <Cards name="Course Materials" department="link to labs folder google Drive" year="link to attandence folder on google Drive"/>
+            <Cards id="coursepage_card" name="Course Materials" department="link to labs folder google Drive" year="link to attandence folder on google Drive"/>
         </>
     );
 }

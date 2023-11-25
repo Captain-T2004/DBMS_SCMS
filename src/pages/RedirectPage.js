@@ -23,8 +23,8 @@ const RedirectPage = ({ redirectTo }) => {
         <div className="image">
           <img src="/assets/login_page.png" alt="" />
         </div>
-        <h1>You have been successfully logged out.</h1>
-        <p>Redirecting to the login page in {countdown} seconds...</p>
+        <h1>"You are being logged out successfully."</h1>
+        <p>Please wait for {countdown} seconds... to be redirected to the login page.</p>
       </div>
     </div>
   );
