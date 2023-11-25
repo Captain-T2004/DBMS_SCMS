@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Card.css";
 export default function Cards(props) 
 {
@@ -13,9 +14,9 @@ export default function Cards(props)
             </div>
             <div className='right-column'>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item"><strong>Name:</strong> {p_name}</li>
-                    <li className="list-group-item"><strong>Department:</strong> {p_department}</li>
-                    <li className="list-group-item"><strong>Year:</strong> {p_year}</li>
+                    <Link to="https://google.co.in" className="list-group-item">{p_name}</Link>
+                    <Link to="https://google.co.in" className="list-group-item">{p_department}</Link>
+                    <Link to="https://google.co.in" className="list-group-item">{p_year}</Link>
                 </ul>
             </div>
         </div>

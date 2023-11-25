@@ -3,10 +3,8 @@ import CourseTable from "../Components/CourseTable/CourseTable";
 function Dashboard(){
     return (
         <>
-            <h4 id="DashHeadings">ACADEMICS</h4>
-            <DashboardCard Phone="9319674300" Name="Akshay Behl" Department="CSE" Year="2022" Qualification="B.Tech."/>
+            <DashboardCard Phone="931967xxxx" Name={generateRandomName()} Department={getRandomBranch()} Year="2022" Qualification="B.Tech."/>
             <br/>
-            <h4 id="DashHeadings">COURSES</h4>
             <div className="TableDashboard">
                 <CourseTable />
             </div>   
@@ -14,3 +12,73 @@ function Dashboard(){
     );
 }
 export default Dashboard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Names = ["Amit Sharma", "Deepa Singh", "Karan Sharma", "Sarita Verma", "Sanjay Patel", "Ananya Gupta", "Rahul Kumar", "Shweta Gupta"];
+
+function generateRandomName() {
+  const Name = Names[Math.floor(Math.random() * Names.length)];
+  return Name;
+}
+const branches = ["Computer Science", "Electrical Engineering", "Mechanical Engineering", "Civil Engineering", "Chemical Engineering", "Biomedical Engineering", "Environmental Science", "Physics", "Mathematics"];
+
+function getRandomBranch() {
+  const randomIndex = Math.floor(Math.random() * branches.length);
+  return branches[randomIndex];
+}
+
+const randomBranch = getRandomBranch();
